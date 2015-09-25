@@ -1,0 +1,63 @@
+/*SAMUEL HOLY **** LOOK HOW I FORMATTED ALL THE THINGS IN #NAV I HAD NO IDEA YOU COULD NEST IN CSS*/
+
+/*OR IS THAT ONLY IN .LESS?????!?!?!?*/
+
+/*OH ITS ONLY IN .LESS*/
+
+.import {
+    width: 100%;
+    height:inherit;
+}
+
+#nav {
+    background-color: #2C3E50;
+    color: white;
+
+    h1 {
+    font-size: 3em;
+    text-align: center;
+    }
+
+    #links {
+    text-align: center;
+    }
+
+    a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    width: 32%;
+    border-style: solid;
+    border-color: black;
+    border-width: medium
+    }
+
+    a:hover {
+    background-color: black;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #nav {
+        a {
+            display: block;
+            font-size: 2em;
+            margin: 0 auto;
+            width: auto;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        #links {
+            text-align: center;
+        }
+    }
+}
+@media only screen and (max-width: 300px) {
+    #nav {
+        a {
+
+        }
+    }
+}
