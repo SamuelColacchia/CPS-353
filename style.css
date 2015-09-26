@@ -23,7 +23,9 @@
 a {
   color: white;
 }
-/* Top Nav*/
+/*
+
+*/
 .top-nav {
   background-color: #2C3E50;
 }
@@ -41,7 +43,7 @@ a {
 .top-nav a:hover:first-of-type {
   border-top: none;
 }
-.top-nav a:hover {
+.top-nav .top-nav a:hover {
   background-color: #22313F;
 }
 /*End Top Nav*/
