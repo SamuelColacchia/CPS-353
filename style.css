@@ -25,6 +25,7 @@
 .home-image-carasel {
   display: none;
 }
+/* ===Wrapper=== */
 /* ===Top Nav=== */
 .top-nav {
   background-color: #2C3E50;
@@ -191,7 +192,11 @@ footer {
 }
 /* ===Media Queries=== */
 @media only screen and (min-width: 768px) {
-  #main-wrapper-sub {
+  .left-element {
+    width: 236px;
+    height: 100%;
+  }
+  .main-wrapper-middle {
     width: auto;
     padding-left: 236px;
   }
