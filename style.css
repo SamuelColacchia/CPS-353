@@ -120,11 +120,11 @@ footer {
 #shopping-cart input {
   width: 1em;
 }
-#cart-checkout-button {
+#shopping-cart .cart-checkout-button {
   width: 9.5em;
   height: 3em;
 }
-.item {
+#shopping-cart .item {
   display: inline-block;
   margin: 20px;
   border: 1px solid black;
@@ -132,14 +132,14 @@ footer {
   text-align: center;
   width: 300px;
 }
-.subitem {
+#shopping-cart .subitem {
   display: ;
 }
-.subitem-header {
+#shopping-cart .subitem-header {
   font-size: 1em;
   font-weight: 500;
 }
-.totals {
+#shopping-cart .totals {
   display: block;
   text-align: right;
   border-top: 2px solid black;
