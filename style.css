@@ -21,6 +21,10 @@
   display: none;
 }
 /* ===Mobile Styling=== */
+/* ===Mobile Image Carasel=== */
+.home-image-carasel {
+  display: none;
+}
 /* ===Top Nav=== */
 .top-nav {
   background-color: #2C3E50;
@@ -171,7 +175,7 @@ footer {
 #products a {
   color: black;
 }
-.products-item {
+#products .products-item {
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -182,14 +186,10 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
-.products-head {
+#products .products-head {
   text-align: center;
 }
-.home-image-carasel {
-  display: none;
-}
-/*End CART STYLE*/
-/*End Footer*/
+/* ===Media Queries=== */
 @media only screen and (min-width: 768px) {
   #main-wrapper-sub {
     width: auto;
@@ -204,6 +204,7 @@ footer {
     border: 1px solid;
     position: relative;
     background-color: black;
+    display: block;
   }
   .photo {
     position: absolute;
