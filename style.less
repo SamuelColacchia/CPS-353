@@ -1,17 +1,17 @@
-/*Variables*/
-
-
-/*Universal Reset*/
-
+/* ===Universal Reset=== */
 * {
     padding: 0;
     margin: 0;
     font-family: Verdana;
 }
+
+/* ===Object import hack=== */
 .import {
     width: 100%;
     height: 100%;
 }
+
+/* ===Object import code=== */
 #top-nav-import {
     height: 100%;
 }
@@ -22,16 +22,9 @@
     display: none;
 }
 
-/* Mobile Styling*/
+/* ===Mobile Styling=== */
 
-a {
-    color: white;
-}
-
-/*
-
-*/
-
+/* ===Top Nav=== */
 .top-nav {
     background-color: #2C3E50;
     a {
@@ -53,29 +46,14 @@ a {
     }
 }
 
-/*End Top Nav*/
-
-
-/*Main Content*/
-
+/* ===Main Wrapper===*/
 .main-wrapper {
-    height: 80em;
+    min-height: 80em;
     position: relative;
 }
 
-/*End Main Content*/
-
-
-/*Left Nav*/
-
-.left-nav ul {
-    list-style-type: none;
-}
-.left-nav a {
-    color: black;
-    text-decoration: none;
-}
-.left-nav {
+/* ===Left Nav=== */
+.left-nav{
     background-color: transparent;
     border-radius: 1.5em;
     border: .3em solid black;
@@ -89,29 +67,36 @@ a {
     position: fixed;
     text-align: left;
     width: 200px;
-}
-.left-nav-flex {
+
+    ul{
+        list-style-type: none;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    .left-nav-flex {
     display: block;
     justify-content: none;
     padding-left: 0;
     padding-right: 0;
     position: relative;
-}
-.left-nav ul {
+    }
+    ul {
     margin-bottom: 10px;
     margin-top: 10px;
-}
-.left-nav ul ul {
+    }
+    ul ul {
     display: none;
-}
-.left-nav ul li:hover>ul {
+    }
+    ul li:hover>ul {
     display: block;
-}
-.left-nav ul ul li a {
+    }
+    ul ul li a {
     width: 100%;
     text-align: center;
-}
-.left-nav ul ul li {
+    }
+    ul ul li {
     border-radius: 5px;
     border: 1px solid black;
     margin-top: 5px;
@@ -119,29 +104,23 @@ a {
     width: 100%;
     height: 100%;
     text-align: center;
-}
-.left-nav ul ul li:hover {
+    }
+    ul ul li:hover {
     background-color: lightgray;
-}
-.left-nav a:hover {
+    }
+    a:hover {
     text-decoration: underline;
     background-color: lightgray;
+    }
 }
 
-/*End Left Nav*/
-
-
-/*Footer*/
-
+/* ===Footer=== */
 footer {
     background-color: #2C3E50;
     min-height: 2em;
 }
 
-/*End Footer*/
-
-
-/*CART STYLE*/
+/* ===Shopping Cart===*/
 
 #shopping-cart {
     width: 75%;
