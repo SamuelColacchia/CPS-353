@@ -26,6 +26,10 @@
   display: none;
 }
 /* ===Wrapper=== */
+.wrapper {
+  position: absolute;
+  width: 100%;
+}
 /* ===Top Nav=== */
 .top-nav {
   background-color: #2C3E50;
@@ -195,6 +199,7 @@ footer {
   .left-element {
     width: 236px;
     height: 100%;
+    position: static;
   }
   .main-wrapper-middle {
     width: auto;
