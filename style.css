@@ -200,7 +200,7 @@ footer {
   .left-element {
     width: 236px;
     height: 100%;
-    position: static;
+    position: absolute;
   }
   .main-wrapper-middle {
     width: auto;
