@@ -33,6 +33,14 @@
 .bold {
   font-weight: bold;
 }
+#upload-download {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: auto;
+}
+#upload-download #upload #upload-submit-button {
+  margin-top: 10px;
+}
 @media only screen and (max-width: 768px) {
   #nav a {
     display: block;
