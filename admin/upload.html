@@ -13,7 +13,48 @@
         <object class="import"  type="text/html" data="nav.html"></object>
     </div>
     
-	<div id="uploader">
+	<div id="upload-download">
+        <div id="download">
+            <div id="download-head">
+            <h3>Download file containing all product data:</h3>
+            </div>
+            <div id="download-link">
+
+                <a href="#"><button>Download</button></a>
+            </div>
+            <div id="download-instructions">
+                <p>Click the link to download all product data in one file. Clicking the button should begin dowload immediately. Click the download icon on your browser once the download is complete to open the file.</p>
+            </div>
+        </div>
+        <div id="upload">
+            <div id="upload-head">
+                <h3>Upload files:</h3>
+                <p>Note: accepts csv/xml/text/json files</p>
+            </div>
+            <div id="upload-field">
+                <form>
+                    <div class="bold">Please specify a file to upload:</div>
+                    <div><input type="file" name="upload_file" size="40"></div>
+                    <div id="upload-submit-button"><button>Submit</button></div>
+                </form>
+            </div>
+            <div id="upload-format">
+                <div id="upload-format-head">
+                    <h4>File Format:</h4>
+                </div>
+                <div id="upload-format-main">
+                    <ol>
+                        <li>Product Name</li>
+                        <li>Product Description</li>
+                        <li>Link to Product Picture</li>
+                        <li>Product Price</li>
+                        <li>Product Condition</li>
+                        <li>Product Availability</li>
+                        <li>Everything Included with Product</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>
