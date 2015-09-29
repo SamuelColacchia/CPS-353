@@ -38,6 +38,12 @@
   margin-right: 10px;
   width: auto;
 }
+#upload-download button {
+  width: 150px;
+}
+#upload-download input {
+  width: 300px;
+}
 #upload-download #upload #upload-submit-button {
   margin-top: 10px;
 }
