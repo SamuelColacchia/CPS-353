@@ -36,7 +36,8 @@
 }
 
 /* ===Wrapper=== */
-.wrapper{
+
+.wrapper {
     position: absolute;
     width: 100%;
 }
@@ -52,7 +53,7 @@
         padding: 0.5em 0.75em;
         text-align: center;
         text-decoration: none;
-        color:white;
+        color: white;
     }
     a:first-of-type {
         border-top: none;
@@ -65,15 +66,12 @@
     }
 }
 
-
-
-
 /* ===Main Wrapper===*/
 
 .main-wrapper {
-    width:100%;
+    width: 100%;
     position: relative;
-    display:inline-block;
+    display: inline-block;
 }
 
 /* ===Left Nav=== */
@@ -189,7 +187,6 @@ footer {
     display: inline-block;
     width: auto;
     a {
-        background color: black;
         color: black;
     }
     .title {}
@@ -231,22 +228,31 @@ footer {
 
 //still needs to be cleaned
 @media only screen and (min-width:768px) {
-    .left-element{
-        width:236px;
-        height:600px;
+    #main-wrapper {
+        width: 100%;
         position: relative;
-        display: inline-block;
 
     }
-    .main-wrapper-middle {
-        width: 100%;
+    #left-element {
+        width: 236px;
+        float: left;
+        position: relative;
+        background-color: red;
+    }
+    #main-wrapper-middle {
+        width: auto;
         margin: 0 auto;
-        display:inline-block;
+        background-color:green;
+        padding-left:236px;
+        padding-right:236px;
+    }
+    #right-element {
+
     }
     .home-image-carasel {
         margin: 0 auto;
-        width: auto;
-        width: 800px;
+        max-width: 800px;
+        min-width: auto;
         height: 500px;
         overflow: hidden;
         border: 1px solid;
@@ -258,7 +264,8 @@ footer {
         position: absolute;
         animation: round 16s infinite;
         opacity: 0;
-        width: 800px;
+        max-width: 800px;
+        min-width: auto;
         height: 500px;
     }
     @keyframes round {
