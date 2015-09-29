@@ -229,8 +229,7 @@ footer {
     position: absolute;
     animation: round 16s infinite;
     opacity: 0;
-    max-width: 800px;
-    min-width: auto;
+    width: 800px;
     height: 500px;
   }
   @keyframes round {
