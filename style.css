@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
   font-family: Verdana;
-  background-color: red;
 }
 /* ===Object Import Hack=== */
 .import {
@@ -42,6 +41,7 @@
   padding: 0.5em 0.75em;
   text-align: center;
   text-decoration: none;
+  color: white;
 }
 .top-nav a:first-of-type {
   border-top: none;
@@ -54,8 +54,9 @@
 }
 /* ===Main Wrapper===*/
 .main-wrapper {
-  min-height: 80em;
+  width: 100%;
   position: relative;
+  display: inline-block;
 }
 /* ===Left Nav=== */
 .left-nav {
@@ -199,12 +200,14 @@ footer {
 @media only screen and (min-width: 768px) {
   .left-element {
     width: 236px;
-    height: 100%;
-    position: absolute;
+    height: 600px;
+    position: relative;
+    display: inline-block;
   }
   .main-wrapper-middle {
-    width: auto;
-    padding-left: 236px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
   }
   .home-image-carasel {
     margin: 0 auto;
