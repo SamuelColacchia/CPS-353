@@ -108,12 +108,8 @@
 @media only screen and (max-width: 768px) {
   #nav a {
     display: block;
-    font-size: 2em;
     margin: 0 auto;
     width: auto;
-  }
-  #nav h1 {
-    font-size: 3em;
   }
   #nav #links {
     text-align: center;
