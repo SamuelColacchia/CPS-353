@@ -55,6 +55,9 @@
 #editor #editor-head {
   padding-left: 10%;
 }
+#editor #editor-main-info button {
+  width: 35%;
+}
 #editor #editor-main-info-item {
   border-top-style: solid;
   border-width: 1px;
@@ -67,11 +70,18 @@
 #editor #editor-main-select-product {
   padding: 0% 0% 10px 10%;
 }
-#editor button {
-  width: 35%;
+#editor #editor-main-select-product input {
+  margin-left: 5px;
+  width: 25%;
+}
+#editor #editor-main-select-product button {
+  width: 25.5%;
+  margin-left: 13px;
 }
 #editor #submit-button button {
-  margin: auto;
+  margin-left: 35%;
+  margin-right: 35%;
+  width: 30%;
 }
 @media only screen and (max-width: 768px) {
   #nav a {
@@ -85,5 +95,10 @@
   }
   #nav #links {
     text-align: center;
+  }
+  #editor #editor-main {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
   }
 }
