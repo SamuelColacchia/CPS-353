@@ -70,8 +70,8 @@
 #editor button {
   width: 35%;
 }
-#editor #submit-button {
-  margin: 0px, auto;
+#editor #submit-button button {
+  margin: auto;
 }
 @media only screen and (max-width: 768px) {
   #nav a {
