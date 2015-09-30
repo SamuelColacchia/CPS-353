@@ -20,7 +20,7 @@
   height: 10%;
 }
 #nav h1 {
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
 }
 #nav #links {
@@ -30,7 +30,7 @@
   display: inline-block;
   text-decoration: none;
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   width: 32%;
   border-style: solid;
   border-color: black;
@@ -64,14 +64,6 @@
 }
 #upload-download #upload #upload-submit-button {
   margin-top: 10px;
-  margin-bottom: 20px;
-}
-#upload-download #upload #upload-format {
-  border-style: solid;
-  margin-bottom: 10px;
-}
-#upload-download #upload #upload-format #upload-format-main {
-  padding-left: 30px;
 }
 #upload-download #upload #upload-format-main ol {
   margin-left: 20px;
