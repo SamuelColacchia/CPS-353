@@ -198,6 +198,44 @@ footer {
 }
 /* ===Media Queries=== */
 @media only screen and (min-width: 768px) {
+  .home-image-carasel {
+    margin: 0 auto;
+    max-width: 100%;
+    min-width: auto;
+    height: 600px;
+    overflow: hidden;
+    border: 1px solid;
+    position: relative;
+    background-color: black;
+    display: block;
+  }
+  .home-image-carasel .photo {
+    position: absolute;
+    animation: round 16s infinite;
+    opacity: 0;
+    width: 100%;
+    height: 600px;
+  }
+  @keyframes round {
+    25% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 0;
+    }
+  }
+  .home-image-carasel img:nth-child(4) {
+    animation-delay: 0s;
+  }
+  .home-image-carasel img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  .home-image-carasel img:nth-child(2) {
+    animation-delay: 8s;
+  }
+  .home-image-carasel img:nth-child(1) {
+    animation-delay: 12s;
+  }
   #main-wrapper {
     width: 100%;
     position: relative;
@@ -208,7 +246,7 @@ footer {
     position: relative;
   }
   #main-wrapper-middle {
-    width: auto;
+    width: 100;
     margin: 0 auto;
     padding-left: 236px;
     padding-right: 236px;
@@ -246,46 +284,6 @@ footer {
   }
   #products-wrapper {
     width: 70%;
-  }
-}
-@media only screen and (min-width: 1300px) {
-  .home-image-carasel {
-    margin: 0 auto;
-    max-width: 800px;
-    min-width: auto;
-    height: 500px;
-    overflow: hidden;
-    border: 1px solid;
-    position: relative;
-    background-color: black;
-    display: block;
-  }
-  .home-image-carasel .photo {
-    position: absolute;
-    animation: round 16s infinite;
-    opacity: 0;
-    width: 800px;
-    height: 500px;
-  }
-  @keyframes round {
-    25% {
-      opacity: 1;
-    }
-    40% {
-      opacity: 0;
-    }
-  }
-  .home-image-carasel img:nth-child(4) {
-    animation-delay: 0s;
-  }
-  .home-image-carasel img:nth-child(3) {
-    animation-delay: 4s;
-  }
-  .home-image-carasel img:nth-child(2) {
-    animation-delay: 8s;
-  }
-  .home-image-carasel img:nth-child(1) {
-    animation-delay: 12s;
   }
 }
 .bold {
