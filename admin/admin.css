@@ -44,8 +44,20 @@
 #upload-download input {
   width: 300px;
 }
+#upload-download #download {
+  border-style: solid;
+  padding: 0px 10px 0px 10px;
+}
+#upload-download #upload {
+  border-style: solid;
+  margin-top: 10px;
+  padding: 0px 10px 0px 10px;
+}
 #upload-download #upload #upload-submit-button {
   margin-top: 10px;
+}
+#upload-download #upload-download-head {
+  text-align: center;
 }
 #editor {
   border-style: solid;
