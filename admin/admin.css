@@ -8,6 +8,9 @@
   width: 100%;
   height: inherit;
 }
+.nav-import {
+  height: 193px;
+}
 #nav {
   background-color: #2C3E50;
   color: white;
@@ -70,6 +73,9 @@
 #upload-download #upload #upload-format #upload-format-main {
   padding-left: 30px;
 }
+#upload-download #upload #upload-format-main ol {
+  margin-left: 20px;
+}
 #upload-download #upload-download-head {
   text-align: center;
 }
@@ -114,12 +120,8 @@
 @media only screen and (max-width: 768px) {
   #nav a {
     display: block;
-    font-size: 2em;
     margin: 0 auto;
     width: auto;
-  }
-  #nav h1 {
-    font-size: 3em;
   }
   #nav #links {
     text-align: center;
@@ -128,5 +130,8 @@
     display: inline-block;
     border-style: solid;
     border-width: 1px;
+  }
+  .nav-import {
+    height: 193px;
   }
 }
