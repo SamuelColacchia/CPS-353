@@ -65,6 +65,9 @@
 #upload-download #upload #upload-submit-button {
   margin-top: 10px;
 }
+#upload-download #upload #upload-format-main ol {
+  margin-left: 20px;
+}
 #upload-download #upload-download-head {
   text-align: center;
 }
