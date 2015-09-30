@@ -20,7 +20,7 @@
   height: 10%;
 }
 #nav h1 {
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
 }
 #nav #links {
@@ -30,7 +30,7 @@
   display: inline-block;
   text-decoration: none;
   color: white;
-  font-size: 1.5em;
+  font-size: 2em;
   width: 32%;
   border-style: solid;
   border-color: black;
@@ -64,6 +64,14 @@
 }
 #upload-download #upload #upload-submit-button {
   margin-top: 10px;
+  margin-bottom: 20px;
+}
+#upload-download #upload #upload-format {
+  border-style: solid;
+  margin-bottom: 10px;
+}
+#upload-download #upload #upload-format #upload-format-main {
+  padding-left: 30px;
 }
 #upload-download #upload #upload-format-main ol {
   margin-left: 20px;
@@ -82,20 +90,21 @@
 #editor #editor-main-info button {
   width: 35%;
 }
-#editor #editor-main-info-item {
+#editor #editor-main-info .editor-main-info-item {
+  margin-left: 0px;
   border-top-style: solid;
   border-width: 1px;
   margin-bottom: 5px;
   padding-left: 10%;
 }
-#editor #editor-main-info-item input {
+#editor #editor-main-info .editor-main-info-item input {
   width: 55%;
 }
 #editor #editor-main-select-product {
   padding: 0% 0% 10px 10%;
 }
 #editor #editor-main-select-product input {
-  margin-left: 5px;
+  margin-left: 8px;
   width: 25%;
 }
 #editor #editor-main-select-product button {
@@ -103,9 +112,9 @@
   margin-left: 13px;
 }
 #editor #submit-button button {
-  margin-left: 35%;
+  margin-left: 32.3%;
   margin-right: 35%;
-  width: 30%;
+  width: 31.5%;
   margin-bottom: 5px;
 }
 @media only screen and (max-width: 768px) {
