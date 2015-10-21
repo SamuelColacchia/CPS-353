@@ -11,3 +11,5 @@ DROP TABLE [dbo].[Products]
 DROP TABLE [dbo].[Categories]
 
 DROP TABLE [dbo].[Users]
+
+DROP TABLE [dbo].[UserTypes]
